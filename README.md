@@ -9,7 +9,7 @@ as less repetitive CSS as possible using SASS. DRY or [Don't repeat Yourself](ht
 a programming principle aiming to avoid and/or reduce repetition in code.
 
 ## What was used:
-* HTML5&CSS3
+* HTML5 & CSS3
 * SASS
 
 ## What I learned
