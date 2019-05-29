@@ -13,8 +13,8 @@ a programming principle aiming to avoid and/or reduce repetition in code.
 * SASS
 
 ## What I learned
-* How to use in SASS @foreach loops
-* How to look an eye on minimize the amount of CSS in code
+* How to use SASS @foreach loops
+* To keep an eye on how much CSS is written and how to reduce it.
 
 ## License
 
