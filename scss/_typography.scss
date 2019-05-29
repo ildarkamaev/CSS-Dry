@@ -1,0 +1,36 @@
+h1,
+h2,
+a {
+    font-family: $ff-heading;
+}
+
+h1,
+h2,
+p,
+a {
+    color: $clr-white;
+}
+
+h2 {
+    padding: 1rem 0 2rem 0;
+    font-weight: 300;
+    color: darken($clr-white, 8);
+}
+
+p {
+    font-family: $ff-body;
+    line-height: 2rem;
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@each $font,
+$size in $font-sizes {
+    #{$font} {
+        font-size: $size;
+    }
+}

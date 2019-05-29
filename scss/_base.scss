@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat:700, 300&display=swap");
+$ff-heading: "Montserrat",
+serif;
+$ff-body: "Merriweather",
+sans-serif;
+$clr-white: #fdfdfd;
+$bg-colors: ( start: #f17f65,
+center: #f5c950,
+end: #c8e329);
+$btn-colors: ( btn-normal: #07a0c3,
+btn-orange: #e2633b,
+btn-awesome: #f17f65);
+$font-sizes: ( h1: 6rem,
+h2: 3rem,
+p: 1.6rem,
+a: 1.6rem);
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}

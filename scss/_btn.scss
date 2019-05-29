@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+}
+
+@each $name,
+$color in $btn-colors {
+    .#{$name} {
+        background: $color;
+        &:hover {
+            background: darken($color, 4);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .wrapper {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+}
+
+@each $name,
+$color in $bg-colors {
+    .#{$name} {
+        background: $color;
+    }
+}
