@@ -23,8 +23,7 @@ h2 {
 p {
   font-family: "Merriweather", sans-serif;
   line-height: 2rem;
-  text-align: justify;
-  margin-bottom: 4rem; }
+  text-align: justify; }
 
 a {
   text-decoration: none; }
@@ -42,6 +41,7 @@ a {
   font-size: 1.6rem; }
 
 section {
+  padding: 2rem;
   height: 100vh;
   display: flex;
   align-items: center; }
@@ -62,6 +62,7 @@ section {
   display: inline-block;
   padding: 1.5rem 3rem;
   border-radius: 1rem;
+  margin: 4rem 0;
   transition: all ease-in-out 300ms; }
 
 .btn-normal {
